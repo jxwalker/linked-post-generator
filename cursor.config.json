@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "commit_message_format": "^(feat|fix|docs|refactor|test|chore): .+$",
+    "require_tests": true,
+    "require_docstrings": true,
+    "branch_naming_convention": "^(feature|bugfix|hotfix)/[a-z0-9\\-]+$",
+    "max_commit_message_length": 100,
+    "code_format": "black"
+  },
+  "prompts": {
+    "commit_message": "Please provide a commit message that starts with one of the following keywords: feat, fix, docs, refactor, test, or chore, followed by a concise description.",
+    "documentation": "Ensure all new code includes inline documentation and module/class/function docstrings. Explain any non-obvious logic.",
+    "tests": "Have you written tests for your new features or bug fixes? Make sure you add tests under the tests/ directory and run them.",
+    "branch_naming": "When creating a new branch, please use the format: feature/<description>, bugfix/<description>, or hotfix/<description>."
+  }
+}

@@ -1,0 +1,132 @@
+.post-history {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-history h2 {
+  margin-bottom: 24px;
+  color: #2c3e50;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.platform {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #2c3e50;
+  background: #e9ecef;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.content {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 12px 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.status-generated {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-published {
+  background: #cce5ff;
+  color: #004085;
+}
+
+.status-failed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.delete-btn {
+  background: none;
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #dc3545;
+  color: white;
+}
+
+.load-more-btn {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 24px;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.load-more-btn:hover {
+  background: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #6c757d;
+}
+
+.error-message {
+  color: #dc3545;
+  background: #f8d7da;
+  border: 1px solid #dc3545;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  text-align: center;
+} 
